@@ -11,5 +11,4 @@ func main(){
 	for index, item := range myArray {
 		fmt.Printf("O valor do index é %d e o valor é  %d\n", index, item)
 	}
-	fmt.Println(myArray[0]) // get first item
 }
