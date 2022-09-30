@@ -7,6 +7,5 @@ var (
 )
 
 func test(){
-	b = true
-	println(b)
+	println(c)
 }
