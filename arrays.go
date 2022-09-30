@@ -10,4 +10,6 @@ func main(){
 
 	fmt.Println("Array", myArray)
 	fmt.Println(len(myArray) -1)
+	fmt.Println(myArray[len(myArray) -1]) // get last item
+	fmt.Println(myArray[0]) // get first item
 }
