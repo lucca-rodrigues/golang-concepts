@@ -1,4 +1,4 @@
-package declarations
+package main
 
 
 var (
@@ -6,6 +6,7 @@ var (
 	c int = 10
 )
 
-func test(){
-	println(c)
+func main(){
+	chorthand := "X"
+	println(chorthand)
 }
