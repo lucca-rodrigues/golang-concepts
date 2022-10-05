@@ -11,7 +11,9 @@ func main() {
 		println(k, v)
 	}
 
-	for i := 0; i < 10; i++ {
+	i := 0; 
+
+	for i < 10 {
 		println(i)
 		i++
 	}
