@@ -41,7 +41,7 @@ func BuscaCepHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 
-	json.NewEncoder(w).Encode(cep)
+	json.NewEncoder(w).Encode(cep) // Pega o response e converte em json, depois faz o retorno
 }
 
 func BuscaCep(cep string) (*ViaCEP, error) {
